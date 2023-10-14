@@ -3,9 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Thatiana Mattos">
     <meta name="keywords" content="Portfolio para o Elas Na_Tech">
 
-    <title>Thatiana Mattos Portifólio</title>
+    <title>Thatiana Mattos - Portifólio Pessoal </title>
+
+      <!-- usei um pouco de Bootstrap Core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Customizei as Fonts -->
+      <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+      <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+  
+      <!-- Customizei o CSS -->
+      <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
     <link rel="shortcut icon" href="imagens\3749640.png" type="imagens\3749640.png">
     
@@ -13,42 +26,32 @@
 
     <script src="https://kit.fontawesome.com/7d79481767.js" crossorigin="anonymous"></script>
 
-  </head>
-  <body>
+   </head>
 
-    <script src="seta.js"></script>
+  <body id="page-top">
 
-    <header class="header-container">
+    <!-- Navegação estilo hamburguinho -->
 
-        <div class="header">
-          <div class="checkbox-conteiner">
-            <div class="checkbox-wrapper">
-                <input type="checkbox" id="toogle">
-                <label class="checkbox" for="toogle">
-                    <div class="trace"></div>
-                    <div class="trace"></div>
-                    <div class="trace"></div>
-                </label>
-                <div class="menu"></div>
-                <nav class="menu-items">
-                    <ul>
-                        <li ><a href="#sobre"> sobre </a></li>
-                        
-       <li><a href="https://github.com/ThatianaMattos/curriculo/"  target="_blank"> currículo  </a></li>
-                        <li>
-                            <a href="#projetos.html">Projetos</a>
-                        </li>
-                        <li>
-                            <a href="#formulario">Contato</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-          </div>  
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+       <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">Sobre mim</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contato</a>
+        </li>
+      </ul>
+    </nav>
 
-        </div>
-        <h1>Thatiana Mattos</h1>
-        <h2 class="h2">Desenvolvedora Front-end</h2>
         <figure>
             <figcaption>Ouça enquanto navega:</figcaption>
             <audio
@@ -58,52 +61,207 @@
                     <code>audio</code> mp3.
             </audio>
         </figure>
-        <div class="social-media">
-               <a href="https://www.linkedin.com/in/thatiana-mattos/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-         
-            <a href="https://github.com/ThatianaMattos" target="_blank"><i class="fa-brands fa-github"></i></a>      
-        </div>
-       
 
-    </header>
-    <main class="container">
-        <div class="card-conteiner">
-            <div class="card">
-                <div class="card-wrapper">
-                    <h2>Projeto 1</h2>
-                    <p>Vem conferir!</p>
-                </div>
-            </div>
-            <div class="card-text">
-                <p>Confeitaria Delícias Di Atenas.</p>
-            </div>
+          <!-- Header -->
+    <header class="masthead d-flex">
+        <div class="container text-center my-auto">
+          <h1 class="main-title mb-1"> Thatiana Mattos - Portifólio Pessoal</h1>
+          <h3 class="mb-5">
+            <em class="main-title">Conheça um pouco sobre os meus projetos :)</em>
+          </h3>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Sobre mim</a>
         </div>
-        <div class="card-conteiner">
-            <div class="card">
-                <div class="card-wrapper">
-                    <h2>Projeto 2</h2>
-                    <p>Vem conferir!</p>
-                </div>
+        <div class="overlay"></div>
+      </header>
+  
+      <!-- About -->
+      <section class="content-section bg-light" id="about">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+               <div class="col-lg-10 mx-auto">
+                  <img src="imagens\fotome.jpg"  id="me" class="img-responsive rounded-circle img-fluid">
+               </div>
+              <br>
+              <br>
+              <br>
+              <h2>Em busca de desafios!</h2>
+              <p class="lead mb-5">Sou estudante de Análise e Desenvolvimento de Sistemas e Desenvolvedora de software”.<br> Uma pessoa comunicativa , sempre envolvida na área da computação e levo estes recursos para a vida profissional para a resolução de problemas e aplicação dos meus conhecimentos. Possuo facilidade em inovar e trocar experiências e conhecimentos com a equipe. Tenho um bom relacionamento com as pessoas, 
+  Adoro criar materiais para cursos e treinamentos e participar de eventos. Paixão por novas tecnologias, realização de novos cursos e desejo adquirir novas experiências nas áreas de Ciência de Dados, Desenvolvimento e na realização de treinamentos e palestras.Gosto muito de me desenvolver e aprender novas linguagens, estou pronta para encarar qualquer desafio e mostrar as minhas habilidades, com ótima experiência no trabalho em equipe. Busco aperfeiçoar minhas habilidades e adquirir novos conhecimentos, sempre focada em garantir a qualidade dos projetos em que trabalho. <br><br>
+  
+              <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">O que posso oferecer</a>
             </div>
-            <div class="card-text">
-                <p>ODS 15 - Biomas Brasileiros</p>
-            </div>
+          </div>
         </div>
-        <div class="card-conteiner">
-            <div class="card">
-                <div class="card-wrapper">
-                    <h2>Projeto 3</h2>
-                    <p>Vem conferir!</p>
-                </div>
+      </section>
+  
+      <!-- Services -->
+      <section class="content-section bg-primary text-white text-center" id="services">
+        <div class="container">
+          <div class="content-section-heading">
+            <h3 class="text-secondary mb-0">Competências</h3>
+            <h2 class="mb-5">O que posso oferecer</h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+              <span class="service-icon rounded-circle mx-auto mb-3">
+                <i class="icon-bubble"></i>
+              </span>
+              <h4>
+                <strong>Criatividade</strong>
+              </h4>
+              <p class="text-faded mb-0">Adoro dar sugestões e novas idéias</p>
             </div>
-            <div class="card-text">
-                <p>Cardápio Confeitaria.</p>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+              <span class="service-icon rounded-circle mx-auto mb-3">
+                <i class="icon-eyeglass"></i>
+              </span>
+              <h4>
+                <strong>Dedicação</strong>
+              </h4>
+              <p class="text-faded mb-0">Sempre faço o melhor que puder para fazer o meu trabalho!</p>
             </div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+              <span class="service-icon rounded-circle mx-auto mb-3">
+                <i class="icon-people"></i>
+              </span>
+              <h4>
+                <strong>Facilidade em trabalhar em equipe</strong>
+              </h4>
+              <p class="text-faded mb-0">De preferência uma grande equipe
+                <i class="fas fa-heart"></i></p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <span class="service-icon rounded-circle mx-auto mb-3">
+                <i class="icon-pencil"></i>
+              </span>
+              <h4>
+                <strong>Sempre interessada em aprender</strong>
+              </h4>
+              <p class="text-faded mb-0">Para adqurir novos conhecimentos, não há limites!! :)</p>
+            </div>
+          </div>
         </div>
-       
-    </main>
-    <footer class="footer">
-        Feito por Thatiana Mattos &copy;
-    </footer>
-  </body>
-</html>
+      </section>
+  
+     <!-- Portfolio -->
+      <section class="content-section" id="portfolio">
+        <div class="container">
+          <div class="content-section-heading text-center">
+            <h3 class="text-secondary mb-0">Portfolio</h3>
+            <h2 class="mb-5">Projetos mais Recentes</h2>
+          </div>
+          <div class="row no-gutters">
+              
+     <!-- Projeto 1 -  ODS 15 Biomas Brasileiros -->
+            <div class="col-lg-6">
+              <a class="portfolio-item" href="https://thatianamattos.github.io/ODS-BiomasBrasileiros/">
+                <span class="caption">
+                  <span class="caption-content">
+                    <h2>Projeto sobre Os Biomas Brasileiros <br> ODS 15 da ONU.
+                        <br>Feito com HTML 5 e CSS 3.</p></h2>
+                    <p class="mb-0">Repositório da ODS 15 em Julho/2023 - thatianamattos.github.io/ODS-BiomasBr </p>
+                    <a href="https://github.com/ThatianaMattos/ODS-BiomasBrasileiros" class="btn" target="_blank">Repositório no Github</a>
+                  </span>
+                </span>
+                <img class="img-fluid" src="imagens\ODS15.jpeg" alt="ODS15">
+              </a>
+            </div>
+              
+     <!-- Prpjeto 2 Mulheres Tech -->
+            <div class="col-lg-6">
+                <a class="portfolio-item" href="https://thatianamattos.github.io/mulherestech/">
+                  <span class="caption">
+                    <span class="caption-content">
+                      <h2>Projeto: "Mulheres na Tecnologia que <br> lhe inspiram".
+                          <br>Feito com HTML 5 e CSS 3.</p></h2>
+                      <p class="mb-0">Repositório da Mulheres Tech em Junho/2023 - thatianamattos.github.io/mulherestech </p>
+                      <a href="https://github.com/ThatianaMattos/mulherestech" class="btn" target="_blank">Repositório no Github</a>
+                    </span>
+                  </span>
+                  <img class="img-fluid" src="imagens\MargarethHamilton.jpeg" alt="Margareth Hamilton">
+                </a>
+              </div>
+
+               <!-- Prpjeto 3 Cardápio Simples -->
+              <div class="col-lg-6">
+                <a class="portfolio-item" href="https://thatianamattos.github.io/CardapioThatyCakes/">
+                  <span class="caption">
+                    <span class="caption-content">
+                      <h2>Projeto sobre um cardápio simples <br> para uma confeitaria fictícia.
+                          <br>Feito com HTML 5 e CSS 3.</p></h2>
+                      <p class="mb-0">Repositório do cardápio Junho/2023 - thatianamattos.github.io/CardapioThatyCakes </p>
+                      <a href="https://github.com/ThatianaMattos/CardapioThatyCakes" class="btn" target="_blank">Repositório no Github</a>
+                    </span>
+                  </span>
+                  <img class="img-fluid" src="imagens\CArdapioConfeitaria.jpeg" alt="Cardapioconfeitaria">
+                </a>
+              </div>
+
+              <!-- Prpjeto 4 Currículo -->
+              <div class="col-lg-6">
+                <a class="portfolio-item" href="https://thatianamattos.github.io/curriculo/">
+                  <span class="caption">
+                    <span class="caption-content">
+                      <h2>Criação de um currículo online usando HTML 5. <br>Acrescentei um pouco de CSS 3.</p></h2>
+                      <p class="mb-0">Repositório do curriculo em Julho/2023 - thatianamattos.github.io/curriculo </p>
+                      <a href="https://github.com/ThatianaMattos/curriculo" class="btn" target="_blank">Repositório no Github</a>
+                    </span>
+                  </span>
+                  <img class="img-fluid" src="imagens\Curriculo.jpeg" alt="Curriculo">
+                </a>
+              </div>
+              <!-- Prpjeto 5 Texto Academico a Respeito de cópias -->
+              <div class="col-lg-6">
+                <a class="portfolio-item" href="https://thatianamattos.github.io/copiasacademicas/">
+                  <span class="caption">
+                    <span class="caption-content">
+                      <h2>Criação de um currículo online usando HTML 5. <br>Acrescentei um pouco de CSS 3.</p></h2>
+                      <p class="mb-0">Repositório do curriculo em Julho/2023 - thatianamattos.github.io/curriculo </p>
+                      <a href="https://github.com/ThatianaMattos/copiasacademicas" class="btn" target="_blank">Repositório no Github</a>
+                    </span>
+                  </span>
+                  <img class="img-fluid" src="imagens\copiasacademicas.jpeg" alt="Curriculo">
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+       <!-- Footer -->
+        <footer class="footer text-center" id="contact">
+          <div class="container">
+            <ul class="list-inline mb-5">
+              <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/thatiana-mattos/">
+                  <i class="icon-social-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="social-link rounded-circle text-white" href="https://github.com/ThatianaMattos">
+                  <i class="icon-social-github"></i>
+                </a>
+              </li>
+            </ul>
+            <p class="text-muted small mb-0">Copyright &copy; Thatiana Mattos 2023</p>
+          </div>
+        </footer>
+    
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+          <i class="fas fa-angle-up"></i>
+        </a>
+    
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    
+        <!-- Custom scripts for this template -->
+        <script src="js/stylish-portfolio.min.js"></script>
+    
+      </body>
+    
+    </html>
