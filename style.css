@@ -275,6 +275,20 @@ a:hover{
     font-size: 25px;
 
 }
+
+
+.button_seta {
+    background-color: #ccc;
+    border-radius: 10%;
+    margin-bottom: 1rem;
+    margin-right: .1rem;
+    position: inherit;
+  }
+
+.button_seta:hover {
+    background-color: #6f63cd;
+}
+
 .footer{
     width: 100%;
     height: 50px;
@@ -282,6 +296,6 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #1D2840;
+    color: #632883;
     font-weight: bold;
 }
