@@ -10,7 +10,7 @@ body{
 .header-container{
     height: 100vh;
     width: 100vw;
-    background-color: #6a47b6;
+    background-color: #5a399f;
     background-image: url('./img/portifolio.png');
     background-repeat: no-repeat;
     background-position: right;
@@ -32,7 +32,7 @@ h1{
 }
 
 h2{
-    color: #DB9BD2;
+    color: #933faf;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-top: 0;
@@ -116,7 +116,7 @@ a:hover{
     height: 4px;
     width: 10px;
     border-radius: 50%;
-    box-shadow: 0px 0px 0px 0px #DB9BD2;
+    box-shadow: 0px 0px 0px 0px #bf48d1;
     z-index: -1;
     transition: 400ms ease-in-out 0;
 }
@@ -168,11 +168,11 @@ a:hover{
 }
 
 #toggle:checked + .checkbox{
-    background-color:#DB9BD2;
+    background-color:#8a33a7;
 }
 
 #toogle:checked ~ .menu{
-    box-shadow: 0px 0px 0px 100vmax #DB9BD2;
+    box-shadow: 0px 0px 0px 100vmax #9642ad;
     z-index: 1;
 }
 
@@ -187,7 +187,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: #1D2840;
+    background-color: #613b90;
 }
 
 .card-conteiner{
@@ -206,12 +206,12 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#1D2840;
-    border: 1px solid #F4A65E;
+    background-color:#3f2661;
+    border: 1px solid #9244ca;
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #F4A65E;
+    color: #ab5ef4;
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
@@ -237,7 +237,7 @@ a:hover{
     width: 100px;
     border-radius: 50%;
     display: block;
-    border: 1px solid #DB9BD2;
+    border: 1px solid #a35ce4;
     opacity: 0;
     transition: 0.5 ease-in-out;
 }
