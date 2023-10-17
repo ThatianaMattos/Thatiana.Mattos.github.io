@@ -4,5 +4,8 @@
         "titleBar.activeBackground": "#42421C",
         "titleBar.activeForeground": "#FBFBF5"
     },
-    "liveServer.settings.port": 5502
+    "liveServer.settings.port": 5502,
+    "cSpell.words": [
+        "navega"
+    ]
 }

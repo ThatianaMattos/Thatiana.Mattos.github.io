@@ -33,7 +33,7 @@ body {
 
 h2.titulo {
   color: #fff;
-  font-size: 38px;
+  font-size: 48px;
   text-align: center;
 }
 
@@ -423,7 +423,7 @@ footer .line-footer p a {
   }
 
   .topo-do-site .img-topo-site img {
-      width: 100%;
+      width: 50%;
   }
 
   /* ESPECIALIDADES */
