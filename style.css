@@ -176,7 +176,8 @@ section.topo-do-site .flex {
 
 .topo-do-site .img-topo-site img {
   position: relative;
-  animation: flutuar 2s ease-in-out infinite alternate;
+  border-radius: 220px;
+  animation: flatcar 2s ease-in-out infinite alternate;
 }
 
 
