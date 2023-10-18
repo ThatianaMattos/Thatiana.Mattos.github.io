@@ -8,6 +8,8 @@
     <meta name="keywords" content="Portfolio para o Elas Na_Tech">
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script async src="https://www.antena1.com.br/embed/radioPlayer.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- FIM GOOGLE FONTES -->
@@ -24,25 +26,34 @@
  
   <body>
     <header>
+        <div class="fancy-feature-three pt-80 lg-pt-200 md-pt-170 sm-pt-120">
+            <div class="container">
+                <div class="row align-items-center">
+                    <center><h3>Ouça enquanto <strong>você navega</strong> com qualidade de 256kbps</h3> <br><br><p>
+                    <iframe src="https://player.svrdedicado.org/player-topo-html5-2/7362/1/4D6499/ffffff/ffffff/atmunhost/atmunhost/5514996372960" height="95px" style="max-width:3000px; width:100%;" frameborder="0" scrolling="no"></iframe></p></center>
+                </div>
+            </div>
+        </div>
       <div class="interface">
           <div class="logo">
               <a href="#">
-                  <img src="imagens\programming_3749640.png" alt="logo">
+                  <img src="imagens\programming_3749640.png" alt="logo" width="65px" height="65px" >
               </a>
           </div><!--logo-->
 
           <nav class="menu-desktop">
               <ul>
                   <li><a href="#inicio">Home</a></li>
-                  <li><a href="#Sobre Mim">Sobre Mim</a></li>
+                  <li><a href="#Sobre-Mim">Sobre Mim</a></li>
                   <li><a href="#Projetos">Projetos</a></li>
                   <li><a href="#Contato">Contato</a></li>
               </ul>
           </nav>
 
           <div class="btn-contato">
-              <a href="#contato">
-                  <button>Contato</button>
+            
+                          <a href="#Contato">
+                              <button  class="btn-contato">Contato</button>
               </a>
           </div><!--btn-contato-->
 
@@ -69,27 +80,18 @@
       </div><!--interface-->
   </header>
 
-  <figure>
-    <p>Ouça enquanto navega</p>
-    <figcaption>Ouça enquanto navega:</figcaption>
-    <audio
-        controls
-        src="airplounge.mp3" loop="infinity">
-            Seu Navegador não suporta o
-            <code>audio</code> mp3.
-    </audio>
-</figure>
+
   <main>
-      <section class="topo-do-site">
+      <section id="inicio" class="topo-do-site">
           <div class="interface">
               <div class="flex">
                   <div class="txt-topo-site">
-                      <h1>TRANSFORMANDO IDEIAS EM REALIDADE DIGITAL<span>.</span></h1>
-                      <p>Criatividade e inovação andam lado a lado. Com uma combinação única de design impactante, funcionalidade intuitiva e otimização para resultados, estou pronta para criar a presença online dos seus sonhos.Atualizando os seus conceitos </p>
+                      <h1>CONVERTENDO CONCEITOS EM REALIDADE VIRTUAL<span>.</span></h1>
+                      <p>A criatividade e a inovação são inseparáveis. Com uma mistura exclusiva de design marcante, funcionalidade amigável e otimização para desempenho, estou pronta para construir a presença online que você sempre sonhou. Vamos juntos atualizar seus conceitos.</p>
 
                       <div class="btn-contato">
                           <a href="#Contato">
-                              <button>Entre em contato</button>
+                              <button  class="btn-contato">Entre em contato</button>
                           </a>
                       </div>
                   </div><!--txt-topo-site-->
@@ -100,7 +102,7 @@
               </div><!--flex-->
           </div><!--interface-->
       </section><!--topo-do-site-->
-      <section class="especiliadades">
+    <section id="especialidades" class="especiliadades">
         <div class="interface">
             <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
             <div class="flex">
@@ -132,11 +134,11 @@
     </section><!--especiliadades-->
 
 
-      <section class="sobre">
+      <section id="Sobre-Mim"  class="sobre">
           <div class="interface">
               <div class="flex">
                   <div class="img-sobre">
-                      <img src="imagens\Fotoeu.jpeg" alt="fotome">
+                      <img src="imagens\Fotoeu.jpeg" alt="fotome" width="350px" height="300px">
                   </div><!--img-sobre-->
 
                   <div class="txt-sobre">
@@ -156,91 +158,48 @@
           </div><!--interface-->
       </section><!--sobre-->
 
-      <section class="portfolio">
-          <div class="interface">
-              <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
-              <div class="flex">
-                 <!-- Projeto 1 -  Cardápio Confeitaria -->
-                  <div class="img-port" style="background-image: url(imagens\CArdapioConfeitaria.jpeg);">
-                      <div class="overlay">Projeto 1</div>
-                  </div>
-                  <a class="portfolio-item" href="https://thatianamattos.github.io/CardapioThatyCakes/">
-                    <span class="caption">
-                      <span class="caption-content">
-                        <h2>Projeto sobre um cardápio simples <br> para uma confeitaria fictícia.
-                            <br>Feito com HTML 5 e CSS 3.</p></h2>
-                        <p class="mb-0">Repositório do cardápio Junho/2023 - thatianamattos.github.io/CardapioThatyCakes </p>
-                        <a href="https://github.com/ThatianaMattos/CardapioThatyCakes" class="btn" target="_blank">Repositório no Github</a>
-                      </span>
-                    </span>
-                   <!-- Projeto 2 -  Curriculo -->
-                  <div class="img-port" style="background-image: url(imagens\Curriculo.jpeg);">
-                  <div class="overlay">Projeto 2</div>
-                  </div>
-                  <a class="portfolio-item" href="https://thatianamattos.github.io/curriculo/">
-                    <span class="caption">
-                      <span class="caption-content">
-                        <h2>Criação de um currículo online usando HTML 5. <br>Acrescentei um pouco de CSS 3.</p></h2>
-                        <p class="mb-0">Repositório do curriculo em Julho/2023 - thatianamattos.github.io/curriculo </p>
-                        <a href="https://github.com/ThatianaMattos/curriculo" class="btn" target="_blank">Repositório no Github</a>
-                      </span>
-                    </span>
-                   <!-- Projeto 3 -  ODS 15 Biomas Brasileiros -->
-                  <div class="img-port" style="background-image: url(imagens\ODS15.jpeg);">
-                    <div class="overlay">Projeto 3</div>
+      <section  id="Projetos" class="portfolio">
+        <div class="interface">
+            <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+            <div class="flex">
+                <div class="img-port" style="background-image: url(https://raw.githubusercontent.com/ThatianaMattos/CardapioThatyCakes/main/Imagens/Quiche%20de%20Queijo.jpg);">
+                    <div class="overlay">1° Projeto sobre um cardápio simples
+                        para uma confeitaria fictícia.
+                        Feito com HTML 5 e CSS 3. Repositório do cardápio Junho/2023
+                        <button> <a class="btn-contato" href=" thatianamattos.github.io/CardapioThatyCakes">Projeto 01</a> </button>
+                    </div>
                 </div>
-                <a class="portfolio-item" href="https://thatianamattos.github.io/ODS-BiomasBrasileiros/">
-                  <span class="caption">
-                    <span class="caption-content">
-                      <h2>Projeto sobre Os Biomas Brasileiros <br> ODS 15 da ONU.
-                          <br>Feito com HTML 5 e CSS 3.</p></h2>
-                      <p class="mb-0">Repositório da ODS 15 em Julho/2023 - thatianamattos.github.io/ODS-BiomasBr </p>
-                      <a href="https://github.com/ThatianaMattos/ODS-BiomasBrasileiros" class="btn" target="_blank">Repositório no Github</a>
-                    </span>
-                  </span>
-                <!-- Projeto 4 Mulheres Tech -->
-                <div class="img-port" style="background-image: url(imagens\MargarethHamilton.jpeg);">
-                  <div class="overlay">Projeto 4</div>
-              </div>
-              <a class="portfolio-item" href="https://thatianamattos.github.io/mulherestech/">
-                <span class="caption">
-                  <span class="caption-content">
-                    <h2>Projeto: "Mulheres na Tecnologia que <br> lhe inspiram".
-                        <br>Feito com HTML 5 e CSS 3.</p></h2>
-                    <p class="mb-0">Repositório da Mulheres Tech em Junho/2023 - thatianamattos.github.io/mulherestech </p>
-                    <a href="https://github.com/ThatianaMattos/mulherestech" class="btn" target="_blank">Repositório no Github</a>
-                  </span>
-                </span>
-                 <!-- Projeto 5 Calculadora de juros compostos -->
-                  <div class="img-port" style="background-image: url(imagens\CalculadoraJurosCompostos.jpeg);">
-                      <div class="overlay">Projeto 5</div>
-                  </div>
-                  <a class="portfolio-item" href="https://thatianamattos.github.io/CalculadoraJCnew/">
-                    <span class="caption">
-                      <span class="caption-content">
-                        <h2>Criação de uma calculadora de juros compostos com HTML 5. <br> CSS 3 e Javascript.</p></h2>
-                        <p class="mb-0">Repositório da cópia acadÊmica em Outubro/2023 -"https://thatianamattos.github.io/CalculadoraJCnew/ </p>
-                        <a href="https://github.com/ThatianaMattos/CalculadoraJCnew" class="btn" target="_blank">Repositório no Github</a>
-                      </span>
-                    </span>
-                  <!-- Projeto 6 Cópias acadêmicas -->
-                  <div class="img-port" style="background-image: url(imagens\copiasacademicas.jpeg);">
-                    <div class="overlay">Projeto 6</div>
+                <div class="img-port" style="background-image: url(https://raw.githubusercontent.com/ThatianaMattos/curriculo/main/Curriculo.jpeg);">
+                    <div class="overlay">2° Criação de um currículo online usando HTML 5.
+                        Acrescentei um pouco de CSS 3. Repositório do curriculo em Julho/2023</div>
                 </div>
-                <div class="col-lg-6">
-                  <a class="portfolio-item" href="https://thatianamattos.github.io/copiasacademicas/">
-                    <span class="caption">
-                      <span class="caption-content">
-                        <h2>Criação de uma página usando HTML 5. <br>Acrescentei um pouco de CSS 3.</p></h2>
-                        <p class="mb-0">Repositório da cópia acadÊmica em Outubro/2023 -"https://thatianamattos.github.io/copiasacademicas/ </p>
-                        <a href="https://github.com/ThatianaMattos/copiasacademicas" class="btn" target="_blank">Repositório no Github</a>
-                      </span>
-                    </span>
-              </div><!--flex-->
-          </div><!--interface-->
-      </section><!--portfolio-->
+                <div class="img-port" style="background-image: url(https://raw.githubusercontent.com/ThatianaMattos/ODS-BiomasBrasileiros/main/imagens/ODS15.jpeg);">
+                    <div class="overlay">3°Projeto sobre Os Biomas Brasileiros
+                        ODS 15 da ONU.
+                        Feito com HTML 5 e CSS 3. Repositório da ODS 15 em Julho/2023</div>
+                </div>
+                <div class="img-port" style="background-image: url(https://raw.githubusercontent.com/ThatianaMattos/mulherestech/main/Imagens/Margaret%20Hamilton.jpg);">
+                    <div class="overlay">4°Projeto: "Mulheres na Tecnologia que
+                        lhe inspiram".
+                        Feito com HTML 5 e CSS 3. Repositório da Mulheres Tech em Junho/2023</div>
+                </div>
+                <div class="img-port" style="background-image: url(https://raw.githubusercontent.com/ThatianaMattos/CalculadoraJCnew/main/CalculadoraJurosCompostos.jpeg);">
+                    <div class="overlay">Criação de uma calculadora de juros compostos com HTML 5.
+                        CSS 3 e Javascript.
+                        
+                        5°Repositório da cópia acadÊmica em Outubro/2023</div>
+                </div>
+                <div class="img-port" style="background-image: url(https://raw.githubusercontent.com/ThatianaMattos/copiasacademicas/main/imagem/plagioacademico.jpg);">
+                    <div class="overlay">Criação de uma página usando HTML 5.
+                        Acrescentei um pouco de CSS 3.
+                        
+                        6°Repositório da cópia acadÊmica em Outubro/2023</div>
+                </div>
+            </div><!--flex-->
+        </div><!--interface-->
+    </section><!--portfolio-->
 
-      <section class="formulario">
+      <section id="Contato" class="formulario">
           <div class="interface">
               <h2 class="titulo">FALE <span>COMIGO.</span></h2>
 
@@ -260,7 +219,7 @@
           <div class="line-footer">
               <div class="flex">
                   <div class="logo-footer">
-                      <img src="imagens\3749640.png" alt="programim">
+                      <img src="imagens\3749640.png" alt="programim" width="65px" height="65px">
                   </div><!--logo-footer-->
                   <div class="btn-social">
                       <a href="https://instagram.com/thatiana33?igshid=OGQ5ZDc2ODk2ZA=="><button><i class="bi bi-instagram"></i></button></a>

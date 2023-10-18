@@ -7,7 +7,9 @@
 }
 
 body {
-  background-color: #000;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-repeat: no-repeat;
+  background-size: contain;
   height: 100vh;
 }
 
@@ -148,8 +150,18 @@ header nav.menu-desktop ul li {
   display: none;
 }
 
+.img-sobre img {
+  
+    border: 5px solid pink;
+    border-radius: 235px;
+    height: 350px;
+}
+
 /* ESTILO DO TOPO DO SITE */
 section.topo-do-site {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/003/123/185/original/saber-neon-glow-color-flowing-rectangle-background-free-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 40px 4%;
 }
 
@@ -192,7 +204,12 @@ section.topo-do-site .flex {
 }
 
 /* ESTILO DAS ESPECIALIDADES */
+
 section.especiliadades {
+  background-image: url(https://img.freepik.com/vetores-gratis/fundo-abstrato-de-luzes-de-neon_52683-45545.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1697241600&semt=ais);
+  background-repeat: no-repeat;
+  background-size: cover;
+
   padding: 40px 4%;
 }
 
@@ -201,6 +218,9 @@ section.especiliadades .flex {
 }
 
 .especiliadades .especialidades-box {
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-repeat: no-repeat;
+  background-size: contain;
   color: #fff;
   padding: 40px;
   border-radius: 20px;
@@ -224,10 +244,29 @@ section.especiliadades .flex {
 }
 
 /* ESTILO DO SOBRE */
-section.sobre {
+section.sobre{
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  background-repeat: no-repeat;
+  background-size: contain;
   padding: 80px 4%;
 }
 
+section.sobre.img-sobre{ 
+  
+  position: relative;
+  border-radius: 320px;
+  animation: flatcar 2s ease-in-out infinite alternate
+}
+
+@keyframes flutuar {
+  0% {
+      top: 0;
+  }
+
+  100% {
+      top: 30px;
+  }
+}
 section.sobre .flex {
   align-items: center;
   gap: 60px;
@@ -253,6 +292,10 @@ section.sobre .flex {
   text-align: justify;
 }
 
+.btn-social button:hover {
+  background-color: #7db0f2;
+}
+
 .btn-social button {
   width: 60px;
   height: 60px;
@@ -263,10 +306,14 @@ section.sobre .flex {
   cursor: pointer;
   margin: 0 5px;
   transition: .2s;
+  border: 2px solid pink;
 }
 
 /* ESTILO DO PORTFÓLIO */
+
+
 section.portfolio {
+  background-image: url(https://images.unsplash.com/photo-1615715874994-bb83092ef331?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2070);
   padding: 80px 4%;
   box-shadow: 0 0 40px 10px #ffffff1d;
 }
@@ -315,6 +362,10 @@ section.portfolio .flex {
 
 /* ESTILO DO FORMULÁRIO DE CONTATO */
 section.formulario {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/725/1022/497/pink-blue-blur-gradation-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
   padding: 80px 4%;
 }
 
@@ -338,6 +389,7 @@ form textarea {
   border-radius: 15px;
   color: #fff;
   font-size: 18px;
+  border: 5px solid #ff35ef;
 }
 
 form textarea {
@@ -362,6 +414,9 @@ form .btn-enviar input {
 /* ESTILO DO RODAPÉ */
 
 footer {
+  background-image: url(https://addons-media.operacdn.com/media/CACHE/images/themes/45/48945/1.0-rev1/images/b3eabc24-56df-45bd-a269-4ca54ecf3d3a/be04a9a74e20bdb04e953076862e0301.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 40px 4%;
   box-shadow: 0 0 40px 10px #ffffff1d;
 }
