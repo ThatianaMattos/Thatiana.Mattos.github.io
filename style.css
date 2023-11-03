@@ -184,6 +184,7 @@ section.topo-do-site .flex {
 .topo-do-site .txt-topo-site p {
   font-family: IBM Plex Sans;
   font-weight: bold;
+  box-shadow: 5px 5px 5px grey;
   color: #8A2BE2 ;
   margin: 60px 0;
 }
