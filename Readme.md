@@ -1,1 +1,1 @@
-# Criação do meu Portfólio com projetos em HTML e CSS. 
+# Criação do meu Portfólio com projetos em HTML, CSS e JS. 
