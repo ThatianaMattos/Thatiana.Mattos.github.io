@@ -182,8 +182,11 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site p {
-  color: #fff;
-  margin: 40px 0;
+  font-family: IBM Plex Sans;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #800080 ;
+  color: #4169E1;
+  margin: 60px 0;
 }
 
 .topo-do-site .img-topo-site img {
